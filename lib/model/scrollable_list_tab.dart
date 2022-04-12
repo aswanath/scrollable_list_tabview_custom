@@ -7,8 +7,8 @@ class ScrollableListTab {
   ScrollableListTab({
     required this.tab,
     required this.body,
-  }) ;
-//     : assert(body.shrinkWrap && body.physics is NeverScrollableScrollPhysics);
+  })  : assert(body.shrinkWrap && body.physics is NeverScrollableScrollPhysics);
+
 
   /// A data class for tab properties
   final ListTab tab;
